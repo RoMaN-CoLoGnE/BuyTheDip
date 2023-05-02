@@ -1,0 +1,9 @@
+.footer {
+  position: fixed;
+  bottom: 110px;
+  width: 100%;
+  &__copy {
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+}

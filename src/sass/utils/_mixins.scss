@@ -1,0 +1,51 @@
+// container mixin
+@mixin container($w: 480px, $mar: 0 auto, $pad: 0 15px) {
+  @if $w {
+    max-width: $w;
+
+    @media screen and(min-width: 768px) {
+      max-width: 768px;
+    }
+
+    @media screen and(min-width: 1200px) {
+      max-width: 1200px;
+    }
+  }
+
+  @if $mar {
+    margin: $mar;
+  }
+
+  @if $pad {
+    padding: $pad;
+  }
+}
+
+//flex mixin
+@mixin flex(
+  $dsp: flex,
+  $fw: false,
+  $fd: false,
+  $ai: center,
+  $jc: center,
+  $indent: false
+) {
+  @if $dsp {
+    display: $dsp;
+  }
+  @if $fw {
+    flex-wrap: $fw;
+  }
+  @if $fd {
+    flex-direction: $fd;
+  }
+  @if $ai {
+    align-items: $ai;
+  }
+  @if $jc {
+    justify-content: $jc;
+  }
+  @if $indent {
+    gap: $indent;
+  }
+}
