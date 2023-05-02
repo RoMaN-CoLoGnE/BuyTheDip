@@ -1,7 +1,7 @@
 .menu {
   @include flex($jc: space-between);
-  font-family: 'TheBeast', sans-serif;
-  letter-spacing: 0.15em;
+  font-family: 'VirtualRave', sans-serif;
+  letter-spacing: 0.05em;
 
   color: rgb(255, 255, 255);
 
@@ -23,7 +23,6 @@
       background-color: #c7392077;
       box-shadow: 0 10px 20px rgba(17, 109, 162, 0.795);
       transform: translateY(-5px) scale(1.15);
-      // font-size: 15px;
     }
   }
 }
