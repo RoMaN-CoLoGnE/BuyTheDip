@@ -3,10 +3,8 @@
   font-family: 'VirtualRave', sans-serif;
   letter-spacing: 0.05em;
 
-  color: rgb(255, 255, 255);
-
   &__list {
-    @include flex($indent: 10px);
+    @include flex($indent: 20px);
   }
 
   &__item {
@@ -15,8 +13,8 @@
     text-transform: uppercase;
     font-size: 14px;
     background-color: #b147341d;
-    transition: all 0.3s ease-in-out;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 0 10px 5px rgba(255, 102, 0, 0.3);
 
     &:hover,
     &:focus {
