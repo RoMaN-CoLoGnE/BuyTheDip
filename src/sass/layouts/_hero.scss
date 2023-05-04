@@ -1,3 +1,6 @@
+.hero {
+  margin-bottom: 50px;
+}
 .hero__wrapper {
   @include flex($indent: 30px);
   padding: 20px;
@@ -17,7 +20,7 @@
 
 .hero__title {
   font-family: 'VirtualRave', sans-serif;
-  font-size: 95px;
+  font-size: 60px;
   text-transform: uppercase;
   overflow: hidden;
   background: linear-gradient(to right, #ffffff, #c73920);
