@@ -1,29 +1,37 @@
 .logo {
-  @include flex;
-  position: relative;
+  @include flex($fd: column);
+  margin-bottom: 20px;
 
+  @media (min-width: 767.98px) {
+    flex-direction: row;
+  }
   &__img {
-    position: absolute;
-    top: -20px;
-    left: -35px;
-    width: 110px;
+    width: 220px;
     height: auto;
     animation: spin 5s linear infinite;
     transform-style: preserve-3d;
     perspective: 1000px;
     transform: rotateY(0deg);
-  }
 
-  @keyframes spin {
-    100% {
-      transform: rotateY(360deg);
+    @media (min-width: 767.98px) {
+      width: 110px;
     }
   }
 
   &__team-name {
-    margin-left: 60px;
     font-family: 'VirtualRave', sans-serif;
     letter-spacing: 0.05em;
-    font-size: 30px;
+    font-size: 36px;
+
+    @media (min-width: 767.98px) {
+      margin-left: 60px;
+      font-size: 30px;
+    }
+  }
+}
+
+@keyframes spin {
+  100% {
+    transform: rotateY(360deg);
   }
 }
