@@ -12,7 +12,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100% 60%;
-  padding-top: 50px;
   text-align: center;
   background-attachment: fixed;
 }
@@ -20,6 +19,5 @@ body {
 @media (max-width: 768px) {
   body {
     background-position: 65% 60%;
-    padding-top: 20px;
   }
 }

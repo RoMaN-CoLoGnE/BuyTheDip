@@ -1,20 +1,31 @@
 .logo {
   @include flex($fd: column);
+  position: relative;
   margin-bottom: 20px;
 
   @media (min-width: 767.98px) {
     flex-direction: row;
   }
+
   &__img {
-    width: 220px;
+    width: 250px;
     height: auto;
-    animation: spin 5s linear infinite;
-    transform-style: preserve-3d;
-    perspective: 1000px;
-    transform: rotateY(0deg);
 
     @media (min-width: 767.98px) {
+      position: absolute;
+      top: -20px;
+      left: 200px;
       width: 110px;
+
+      animation: spin 5s linear infinite;
+      transform-style: preserve-3d;
+      perspective: 1000px;
+      transform: rotateY(0deg);
+    }
+
+    @media (min-width: 1199.98px) {
+      top: -20px;
+      left: -25px;
     }
   }
 
@@ -24,8 +35,10 @@
     font-size: 36px;
 
     @media (min-width: 767.98px) {
-      margin-left: 60px;
       font-size: 30px;
+    }
+    @media (min-width: 1199.98px) {
+      margin-left: 75px;
     }
   }
 }
