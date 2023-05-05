@@ -1,3 +1,5 @@
 .header {
-  margin-bottom: 50px;
+  @media (min-width: 767767.98px) {
+    margin-bottom: 50px;
+  }
 }
