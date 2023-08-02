@@ -27,13 +27,15 @@
   border: none;
   border-radius: 30px;
 
+  cursor: pointer;
+
   text-transform: uppercase;
   font-family: 'VirtualRave', sans-serif;
-  font-size: 24px;
+  font-size: 30px;
   letter-spacing: 0.05em;
 
   color: currentColor;
-  background-color: #59433fa1;
+  background-color: #c7392077;
 
   transition: all 0.5s ease-in-out;
 
@@ -46,7 +48,7 @@
   @media (min-width: 767.98px) {
     &:hover,
     &:focus {
-      background-color: #c7392077;
+      // background-color: #c7392077;
       box-shadow: 0 10px 20px rgba(17, 109, 162, 0.795);
       transform: translateY(-5px) scale(1.15);
     }

@@ -14,13 +14,15 @@
     box-shadow: 0 0 10px 3px #ff66004d;
     border-radius: 50px;
 
-    &:hover,
-    &:focus {
-      background-color: #c7392052;
-      box-shadow: 0 10px 20px rgba(17, 109, 162, 0.795);
-      transform: translateY(-5px) scale(1.15);
-      border-radius: 50px;
-      // font-size: 15px;
+    @media (min-width: 767.98px) {
+      &:hover,
+      &:focus {
+        background-color: #c7392052;
+        box-shadow: 0 10px 20px rgba(17, 109, 162, 0.795);
+        transform: translateY(-5px) scale(1.15);
+        border-radius: 50px;
+        // font-size: 15px;
+      }
     }
   }
 }
