@@ -15,11 +15,7 @@
   user-select: none;
 
   @media (min-width: 767.98px) {
-    flex-wrap: nowrap;
-    &:hover,
-    &:focus {
-      box-shadow: 0 10px 20px rgba(17, 109, 162, 0.795);
-    }
+    position: relative;
   }
 }
 
@@ -32,17 +28,6 @@
   background: linear-gradient(to right, #ffffff, #c73920);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
-  @media (min-width: 767.98px) {
-    max-width: 315px;
-    text-align: left;
-  }
-
-  @media (min-width: 1199.98px) {
-    max-width: 315px;
-    text-align: left;
-    font-size: 65px;
-  }
 }
 
 .hero__img {
@@ -53,7 +38,29 @@
   mix-blend-mode: screen;
 }
 
-/* Large screens */
+.city-time {
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+
+  @media (min-width: 767.98px) {
+    position: absolute;
+  }
+}
+
+.city-time__city {
+  font-size: 15px;
+  color: currentColor;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.city-time__time {
+  font-size: 20px;
+  color: currentColor;
+  font-weight: bold;
+}
+
 @media (min-width: 768px) {
   .hero__wrapper {
     max-width: 1200px;
@@ -66,5 +73,126 @@
 
   .hero__img {
     width: 50%;
+  }
+}
+
+.time-frankfurt {
+  @media (min-width: 767.98px) {
+    top: 10px;
+    left: 10px;
+    opacity: 0.5;
+    font-size: 20px;
+  }
+
+  @media (min-width: 1199.98px) {
+    top: 10px;
+    left: 30px;
+    opacity: 0.5;
+    font-size: 20px;
+  }
+}
+
+.time-dubai {
+  @media (min-width: 767.98px) {
+    top: 90px;
+    left: 100px;
+    opacity: 1;
+    font-size: 20px;
+  }
+
+  @media (min-width: 1199.98px) {
+    top: 65px;
+    left: 400px;
+    opacity: 0.9;
+    font-size: 20px;
+  }
+}
+
+.time-tokyo {
+  @media (min-width: 767.98px) {
+    top: -30px;
+    right: 70px;
+    opacity: 0.5;
+    font-size: 20px;
+  }
+
+  @media (min-width: 1199.98px) {
+    top: 30px;
+    right: 60px;
+    opacity: 0.5;
+    font-size: 20px;
+  }
+}
+
+.time-sydney {
+  @media (min-width: 767.98px) {
+    top: 170px;
+    right: -30px;
+    opacity: 0.8;
+    font-size: 20px;
+  }
+
+  @media (min-width: 1199.98px) {
+    top: 170px;
+    right: 0px;
+    opacity: 0.8;
+    font-size: 20px;
+  }
+}
+
+.time-los-angeles {
+  @media (min-width: 767.98px) {
+    top: 280px;
+    right: 130px;
+    opacity: 0.5;
+    font-size: 20px;
+  }
+
+  @media (min-width: 1199.98px) {
+    top: 380px;
+    right: 420px;
+    opacity: 0.5;
+    font-size: 20px;
+  }
+}
+
+.time-new-york {
+  @media (min-width: 767.98px) {
+    bottom: 10px;
+    right: 30px;
+    opacity: 0.9;
+    font-size: 20px;
+  }
+}
+
+.time-bangkok {
+  @media (min-width: 767.98px) {
+    bottom: 200px;
+    left: -35px;
+    opacity: 0.8;
+    font-size: 20px;
+  }
+
+  @media (min-width: 1199.98px) {
+    bottom: 220px;
+    left: 0px;
+    opacity: 0.8;
+    font-size: 20px;
+  }
+}
+
+.time-auckland {
+  @media (min-width: 767.98px) {
+    bottom: 30px;
+    left: 60px;
+    opacity: 0.7;
+    font-size: 20px;
+  }
+
+  @media (min-width: 1199.98px) {
+    bottom: 20px;
+    left: 300px;
+    opacity: 1;
+    font-size: 20px;
   }
 }
