@@ -16,7 +16,7 @@ function displayTrendingCoins(coins) {
   const coinList = $('.trend-coins__list');
   coinList.empty();
 
-  coins.slice(0, 7).forEach(coin => {
+  coins.slice(0, 6).forEach(coin => {
     const listItem = `
         <li class='trend-coins__item'>
           <img class='trend-coins__logo' src="${coin.item.small}">
