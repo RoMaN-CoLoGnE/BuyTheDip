@@ -14,12 +14,20 @@ body {
   background-position: 100% 60%;
   text-align: center;
   background-attachment: fixed;
-  -webkit-background-attachment: fixed;
+  -webkit-background-attachment: fixed; /* Safari, iOS */
+  -moz-background-attachment: fixed; /* Firefox */
+  -o-background-attachment: fixed; /* Opera */
+  -ms-background-attachment: fixed; /* Internet Explorer */
+  background-attachment: fixed; /* Стандартное свойство */
 }
 
 @media (max-width: 768px) {
   body {
     background-position: 65% 60%;
-    -webkit-background-position: 65% 60%;
+    -webkit-background-position: 65% 60%; /* Safari, iOS */
+    -moz-background-position: 65% 60%; /* Firefox */
+    -o-background-position: 65% 60%; /* Opera */
+    -ms-background-position: 65% 60%; /* Internet Explorer */
+    background-position: 65% 60%; /* Стандартное свойство */
   }
 }
