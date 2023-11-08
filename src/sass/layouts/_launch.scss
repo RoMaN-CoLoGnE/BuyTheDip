@@ -24,6 +24,14 @@
   text-transform: uppercase;
 }
 
+.launch__video {
+  width: 100%;
+  max-width: 640px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  box-shadow: 0 10px 20px rgba(17, 109, 162, 0.795);
+}
+
 .countdown {
   font-size: 24px;
   font-weight: bold;
