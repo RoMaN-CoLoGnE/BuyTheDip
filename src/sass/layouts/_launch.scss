@@ -27,7 +27,11 @@
 .countdown {
   font-size: 24px;
   font-weight: bold;
-  color: rgb(59, 220, 118);
+  background: linear-gradient(to right, #fff, #c73920);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  overflow: hidden;
+
   text-align: center;
   margin-top: 10px;
   margin-bottom: 20px;
