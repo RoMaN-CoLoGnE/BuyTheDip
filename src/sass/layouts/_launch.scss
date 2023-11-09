@@ -47,7 +47,7 @@
 
 .launch__list {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-bottom: 20px;
   font-size: 16px;
   font-weight: bold;
@@ -58,6 +58,10 @@
   flex-direction: column;
   gap: 8px;
   text-align: right;
+}
+
+.launch__item--minus {
+  font-size: 30px;
 }
 
 .launch__info {
