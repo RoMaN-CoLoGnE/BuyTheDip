@@ -33,20 +33,27 @@
 }
 
 .countdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
   font-size: 24px;
   font-weight: bold;
   background: linear-gradient(to right, #fff, #c73920);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   overflow: hidden;
-
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 20px;
+}
+
+.countdown__time {
+  font-size: 18px;
 }
 
 .launch__list {
   display: flex;
+  // flex-direction: column;
   justify-content: space-evenly;
   margin-bottom: 20px;
   font-size: 16px;
@@ -55,13 +62,10 @@
 
 .launch__label {
   display: flex;
+  // justify-content: space-evenly;
   flex-direction: column;
   gap: 8px;
   text-align: right;
-}
-
-.launch__item--minus {
-  font-size: 30px;
 }
 
 .launch__info {
