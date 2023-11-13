@@ -9,3 +9,5 @@ import './js/api';
 import './js/to-top-btn';
 
 import './js/countdown';
+
+import './js/audio-player';
