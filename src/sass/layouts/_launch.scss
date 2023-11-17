@@ -20,8 +20,11 @@
   width: 100%;
   margin-bottom: 20px;
   font-family: VirtualRave, sans-serif;
-  font-size: 30px;
-  text-transform: uppercase;
+  font-size: 42px;
+  overflow: hidden;
+  background: linear-gradient(to right, #ffffff, #c73920);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .launch__video {
@@ -38,7 +41,6 @@
   justify-content: center;
   margin-top: 10px;
   margin-bottom: 20px;
-  font-size: 24px;
   font-weight: bold;
   background: linear-gradient(to right, #fff, #c73920);
   -webkit-background-clip: text;
@@ -47,25 +49,26 @@
   text-align: center;
 }
 
+.countdown__title {
+  font-size: 24px;
+}
+
 .countdown__time {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .launch__list {
   display: flex;
-  // flex-direction: column;
+  flex-direction: column;
   justify-content: space-evenly;
   margin-bottom: 20px;
   font-size: 16px;
-  font-weight: bold;
+  // font-weight: bold;
 }
 
-.launch__label {
-  display: flex;
-  // justify-content: space-evenly;
-  flex-direction: column;
-  gap: 8px;
-  text-align: right;
+.launch__item-label {
+  max-width: 100%;
+  margin-bottom: 10px;
 }
 
 .launch__info {

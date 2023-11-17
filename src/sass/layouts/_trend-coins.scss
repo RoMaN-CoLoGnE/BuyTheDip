@@ -20,12 +20,12 @@
 
 .trend-coins__title {
   margin-bottom: 30px;
-  // background: linear-gradient(to right, #fff, #c73920);
-  // -webkit-background-clip: text;
-  // -webkit-text-fill-color: transparent;
-  // overflow: hidden;
+  background: linear-gradient(to right, #fff, #c73920);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  overflow: hidden;
   font-family: VirtualRave, sans-serif;
-  font-size: 30px;
+  font-size: 42px;
 }
 
 .trend-coins__list {
@@ -45,6 +45,8 @@
   padding: 15px;
   border-radius: 30px;
 
+  font-size: 16px;
+
   box-shadow: 0 0 10px 3px #ff66004d;
 
   @media (min-width: 767.98px) {
@@ -63,16 +65,4 @@
 
 .trend-coins__logo {
   width: 40px;
-}
-
-.trend-coins__name {
-  font-size: 16px;
-}
-
-.trend-coins__price {
-  font-size: 16px;
-}
-
-.trend-coins__rank {
-  font-size: 16px;
 }
