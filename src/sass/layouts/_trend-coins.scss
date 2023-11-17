@@ -19,13 +19,18 @@
 }
 
 .trend-coins__title {
-  margin-bottom: 30px;
+  margin-bottom: 5px;
   background: linear-gradient(to right, #fff, #c73920);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   overflow: hidden;
   font-family: VirtualRave, sans-serif;
   font-size: 42px;
+}
+
+.trend-coins__text {
+  font-size: 16px;
+  margin-bottom: 30px;
 }
 
 .trend-coins__list {
