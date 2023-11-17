@@ -16,6 +16,11 @@
 
   @media (min-width: 767.98px) {
     position: relative;
+
+    &:hover,
+    &:focus {
+      box-shadow: 0 10px 20px rgba(17, 109, 162, 0.795);
+    }
   }
 }
 
