@@ -13,3 +13,5 @@ import './js/countdown';
 import './js/audio-player';
 
 import './js/contract';
+
+import './js/partners-modal';
