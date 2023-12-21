@@ -5,7 +5,7 @@
 .hero__wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   padding: 20px;
   border-radius: 30px;
@@ -25,20 +25,26 @@
 }
 
 .hero__title {
-  max-width: 390px;
-  font-family: 'VirtualRave', sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 80%;
   font-size: 50px;
   overflow: hidden;
+  font-family: 'VirtualRave', sans-serif;
   background: linear-gradient(to right, #ffffff, #c73920);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .hero__img {
+  // position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: auto;
   display: block;
-  opacity: 0.7;
+  opacity: 0.5;
   mix-blend-mode: screen;
 }
 
@@ -98,15 +104,15 @@
 
 .time-dubai {
   @media (min-width: 767.98px) {
-    top: 90px;
-    left: 100px;
+    top: 160px;
+    left: 70px;
     opacity: 1;
     font-size: 20px;
   }
 
   @media (min-width: 1199.98px) {
-    top: 65px;
-    left: 400px;
+    top: 166px;
+    left: 150px;
     opacity: 0.9;
     font-size: 20px;
   }
@@ -114,8 +120,8 @@
 
 .time-tokyo {
   @media (min-width: 767.98px) {
-    top: -30px;
-    right: 70px;
+    top: -33px;
+    right: 32px;
     opacity: 0.5;
     font-size: 20px;
   }
@@ -137,8 +143,8 @@
   }
 
   @media (min-width: 1199.98px) {
-    top: 170px;
-    right: 0px;
+    top: 218px;
+    right: 6px;
     opacity: 0.8;
     font-size: 20px;
   }
@@ -146,15 +152,15 @@
 
 .time-los-angeles {
   @media (min-width: 767.98px) {
-    top: 280px;
-    right: 130px;
+    top: 300px;
+    right: 80px;
     opacity: 0.5;
     font-size: 20px;
   }
 
   @media (min-width: 1199.98px) {
-    top: 380px;
-    right: 420px;
+    top: 400px;
+    right: 260px;
     opacity: 0.8;
     font-size: 20px;
   }
@@ -162,8 +168,8 @@
 
 .time-new-york {
   @media (min-width: 767.98px) {
-    bottom: 10px;
-    right: 30px;
+    bottom: 100px;
+    right: 70px;
     opacity: 0.9;
     font-size: 20px;
   }
@@ -171,15 +177,15 @@
 
 .time-bangkok {
   @media (min-width: 767.98px) {
-    bottom: 200px;
-    left: -35px;
+    bottom: 260px;
+    left: -16px;
     opacity: 0.8;
     font-size: 20px;
   }
 
   @media (min-width: 1199.98px) {
     bottom: 220px;
-    left: 0px;
+    left: 70px;
     opacity: 0.8;
     font-size: 20px;
   }
