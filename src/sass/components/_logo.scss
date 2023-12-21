@@ -50,3 +50,23 @@
     transform: rotateY(360deg);
   }
 }
+
+.logo__team-wrap {
+  position: relative;
+}
+
+.santa_hut {
+  position: absolute;
+  top: -6px;
+  left: -38px;
+  width: 65px;
+  height: 65px;
+
+  @media (min-width: 1199.98px) {
+    top: -7px;
+    left: 40px;
+
+    width: 60px;
+    height: 60px;
+  }
+}
