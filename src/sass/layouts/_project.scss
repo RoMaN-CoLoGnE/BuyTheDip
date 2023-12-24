@@ -158,13 +158,13 @@
       background: #fff;
       border-radius: 50%;
       position: absolute;
-      top: 15%;
-      left: -139%;
+      top: 6%;
+      left: -144%;
       transform: translate(-50%, -50%);
 
       @media (min-width: 1199.98px) {
-        top: 14%;
-        left: -2445%;
+        top: 8%;
+        left: -249%;
       }
     }
   }
@@ -184,13 +184,39 @@
       background: #fff;
       border-radius: 50%;
       position: absolute;
-      top: 7%;
+      top: 5%;
       left: 242%;
       transform: translate(-50%, -50%);
 
       @media (min-width: 1199.98px) {
-        top: 7%;
+        top: 5%;
         left: 349%;
+      }
+    }
+  }
+}
+
+.phase__title--6 {
+  margin-bottom: 15px;
+  font-family: VirtualRave, sans-serif;
+  font-size: 28px;
+
+  @media (min-width: 767.98px) {
+    position: relative;
+    &::before {
+      content: '';
+      width: 16px;
+      height: 16px;
+      background: #fff;
+      border-radius: 50%;
+      position: absolute;
+      top: 8%;
+      left: -143%;
+      transform: translate(-50%, -50%);
+
+      @media (min-width: 1199.98px) {
+        top: 8%;
+        left: -249%;
       }
     }
   }

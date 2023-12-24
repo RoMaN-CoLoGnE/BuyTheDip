@@ -41,7 +41,8 @@
 
 .hero__button-wrapper {
   position: relative;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
 }
 
 .hero__button {
@@ -59,37 +60,22 @@
   cursor: pointer;
 }
 
-// @media (min-width: 767.98px) {
-//   .hero__button:hover {
-//     background-color: #b147341d;
-//     box-shadow: 0 10px 20px rgba(17, 109, 162, 0.795);
-//     transform: translateY(-5px) scale(1.15);
-//   }
-// }
-
 .hero__menu {
   position: absolute;
-  top: 100%;
+  top: 0;
   left: 0;
-  display: flex;
-  opacity: 0; /* Ändere display zu opacity */
-  pointer-events: none; /* Verhindere, dass das unsichtbare Menü anklickbar ist */
-  flex-direction: column;
-  justify-content: center;
-  gap: 10px;
   width: 100%;
+  display: none;
+  opacity: 1; /* Ändere display zu opacity */
+  pointer-events: none; /* Verhindere, dass das unsichtbare Menü anklickbar ist */
   z-index: 2;
-  transition: opacity 0.5s ease-in-out; /* Füge eine Übergangseigenschaft hinzu */
-
-  @media (min-width: 767.98px) {
-    flex-direction: row;
-    width: auto;
-  }
+  transition: opacity 0.5s ease-in-out;
+  background-color: #20c726;
 }
 
 .hero__menu-button {
   display: block;
-  width: 100%;
+  width: 200px;
   padding: 10px;
   text-align: center;
   background-color: transparent;
